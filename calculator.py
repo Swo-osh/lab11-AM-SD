@@ -1,9 +1,17 @@
+# https://github.com/Swo-osh/lab11-AM-SD
+# Partner 1: Ayush More
+# Partner 2: Sahil Desai 
+
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
 
 One function per operation, in order.
 """
+
+
+
 import math
 
 
