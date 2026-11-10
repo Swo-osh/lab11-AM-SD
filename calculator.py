@@ -12,17 +12,11 @@ def square_root(a):
 
 def hypotenuse(a, b): 
     return math.hypot(a, b)
-    
+
 def add(a, b): return a + b
 
 def subtract(a,b): return a - b
 
-def multiply(a, b): return a * b
-
-def divide(a, b): 
-    if a == 0:
-        raise ZeroDivisionError("Divisor cannot be zero")
-    return b / a
 
 def logarithm(a, b): 
     try:
@@ -30,9 +24,14 @@ def logarithm(a, b):
     except:
         raise ValueError("Enter valid number for logarithm")
 
-def exponent(a, b):
+
+def mul(a, b):
+    return a * b   
+
+def div(a, b):
+    if b == 0:
+        raise ValueError("Cannot divide by zero")
+    return a / b
+
+def exp(a, b):
     return a ** b
-
-
-
-
