@@ -5,7 +5,7 @@ calculator.py
 One function per operation, in order.
 """
 import math
-<<<<<<< HEAD
+
 
 # First example
 import math
@@ -13,7 +13,7 @@ import math
 
 def add(a, b): 
     return a + b
-=======
+
 def add(a, b): return a + b
 
 def subtract(a,b): return a - b
@@ -30,8 +30,6 @@ def exponent(a, b):
     return a ** b
 
 
->>>>>>>
-
 def sub(a, b):
     return a - b
 
@@ -40,7 +38,7 @@ def mul(a, b):
 
 def div(a, b):
     if b == 0:
-        raise ValueError("Cannot divide by zero")
+        raise ZeroDivisionError("Cannot divide by zero")
     return a / b
 
 def log(x, base):
